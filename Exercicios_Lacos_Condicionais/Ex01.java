@@ -8,7 +8,7 @@ public class Ex01 {
 		// Faça um programa que receba três inteiros e diga qual deles é o maior.
 
 		Scanner read = new Scanner(System.in);
-		int numOne, numTwo, numThree, maior = 0;
+		int numOne, numTwo, numThree, bigger = 0;
 		
 		System.out.println("Digite o primeiro número: ");
 		numOne = read.nextInt();
@@ -18,14 +18,14 @@ public class Ex01 {
 		numThree = read.nextInt();
 		
 		if(numOne > numTwo && numOne > numThree) {
-			maior = numOne;
+			bigger = numOne;
 		} else if(numTwo > numOne && numTwo > numThree) {
-			maior = numTwo;
+			bigger = numTwo;
 		} else {
-			maior = numThree;
+			bigger = numThree;
 		}
 		
-		System.out.printf("O maior número é: %d", maior);
+		System.out.printf("O maior número é: %d", bigger);
 	}
 
 }
