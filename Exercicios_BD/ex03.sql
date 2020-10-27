@@ -12,7 +12,7 @@ relevantes dos alunos/a para se trabalhar com o serviço dessa escola.*/
 
 
 CREATE TABLE tb_alunos(
-	id BIGINT AUTO_INCREMENT,
+    id BIGINT AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     idade INT NOT NULL,
     genero VARCHAR(20) NOT NULL,

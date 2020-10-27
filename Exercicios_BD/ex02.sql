@@ -11,7 +11,7 @@ USE db_ecommerce;
 relevantes dos produtos para se trabalhar com o serviço deste ecommerce.*/
 
 CREATE TABLE tb_produtos(
-	id BIGINT AUTO_INCREMENT,
+    id BIGINT AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     marca VARCHAR(50) NOT NULL,
     categoria VARCHAR(100) NOT NULL,

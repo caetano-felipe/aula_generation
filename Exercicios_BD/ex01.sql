@@ -11,7 +11,7 @@
  atributos relevantes dos funcionários para se trabalhar com o serviço deste RH.*/
  
  CREATE TABLE tb_funcionarios(
-	id BIGINT AUTO_INCREMENT,
+    id BIGINT AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     cpf BIGINT NOT NULL,
     funcao VARCHAR(100) NOT NULL,
