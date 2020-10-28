@@ -24,7 +24,7 @@ atributos relevantes dos tb_produto para se trabalhar com o serviço deste ecomm
 esqueça de criar a foreign key de tb_categoria nesta tabela).*/
 
 CREATE TABLE tb_produto(
-	id BIGINT AUTO_INCREMENT,
+    id BIGINT AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,
     marca VARCHAR(20) NOT NULL,
     preco DECIMAL(10,2) NOT NULL,
